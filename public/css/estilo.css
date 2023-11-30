@@ -1,0 +1,109 @@
+/* Importando a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px; /* Adiciona margem superior aos cards */
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.card-img-top {
+    width: 100%; /* Tornando a imagem responsiva */
+    height: 200px; /* Altura fixa da imagem */
+    object-fit: cover; /* Preenche a área mantendo a proporção */
+    border-bottom: 1px solid #ddd; /* Adiciona uma borda na parte inferior da imagem */
+}
+
+.btn-outline-light {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Títulos e seções */
+.titulo {
+    color: #007bff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Botão do carrinho */
+.btn-carrinho {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.btn-carrinho:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+/* Tabela */
+.table {
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+}
+
+.title_carrinho,
+.title_resumo {
+    color: #dc3545;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
